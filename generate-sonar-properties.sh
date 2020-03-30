@@ -10,6 +10,7 @@ sonar.organization=$(echo ${SONAR_ORG})
 sonar.host.url=https://sonarcloud.io
 sonar.login=$(echo ${ENTUR_SONAR_PASSWORD})
 sonar.sources=.
+sonar.sourceEncoding=UTF-8
 sonar.branch.name=$(echo ${CIRCLE_BRANCH})
 sonar.java.binaries=$(echo ${JAVA_HOME})/bin
 EOL
